@@ -3,7 +3,7 @@ PROJECT=knuth_shuffle
 all: $(PROJECT) 
 
 $(PROJECT): $(PROJECT).cxx
-	g++ -Wall -g -pedantic -std=c++11 $^ -o $@
+	g++ -Wall -g -Og -pedantic -std=c++11 $^ -o $@
 
 etags:
 	rm -rf ./TAGS
