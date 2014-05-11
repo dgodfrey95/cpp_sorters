@@ -9,9 +9,6 @@
 #include <cstdlib>              // rand, srand
 #include <ctime>                // time
 
-void print_array(int* array, const int& size);
-void knuth_shuffle(int* array, const int& size);
-
 int main(void)
 {
     const int array_size = 10;
