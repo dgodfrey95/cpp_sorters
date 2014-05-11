@@ -4,6 +4,7 @@
 // or Donald Knuth's "The Art of Computer Programming", Vol. 2, 3rd ed., 1998,
 // p. 145-146.
 
+#include <utility>              // std::swap
 #include <iostream>             // cout, endl
 #include <cstdlib>              // rand, srand
 #include <ctime>                // time
