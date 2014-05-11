@@ -5,7 +5,7 @@
 // p. 145-146.
 
 #include <utility>              // std::swap
-#include <iostream>             // cout, endl
+#include <iostream>             // std::cout, std::endl
 #include <cstdlib>              // rand, srand
 #include <ctime>                // time
 
