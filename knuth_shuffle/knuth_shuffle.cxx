@@ -8,6 +8,7 @@
 #include <iostream>             // std::cout, std::endl
 #include <cstdlib>              // rand, srand
 #include <ctime>                // time
+#include "knuth_shuffle.h"
 
 int main(void)
 {
