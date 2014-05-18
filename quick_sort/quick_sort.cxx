@@ -1,3 +1,5 @@
+// An implementation of quick sort on integers in an array.
+
 #include <utility>              // std::swap
 #include <iostream>             // std::cout, std::endl
 #include <algorithm>            // std::shuffle

@@ -1,3 +1,5 @@
+// An implementation of shell sort on integers in an array.
+
 #include <iostream>             // std::cout, std::endl
 
 void print_array(int* array, const int& size);
