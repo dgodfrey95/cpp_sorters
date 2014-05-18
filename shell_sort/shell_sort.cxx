@@ -34,7 +34,7 @@ void shell_sort(int* array, const int& size)
 {
     int h = 1;
 
-    // Following Donald Knuth, h = 3h + 1.
+    // Following Donald Knuth, let h = 3h + 1.
     while (h < size/3) {
         h = 3 * h + 1;
     }
